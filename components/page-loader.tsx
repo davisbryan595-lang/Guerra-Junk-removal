@@ -16,11 +16,7 @@ export default function PageLoader() {
               height={180}
               className="object-contain animate-bounce-slow"
               priority
-            />
-          </div>
-        </div>
-
-        
+            
 
       {/* Optional custom animations */}
       <style jsx>{`
