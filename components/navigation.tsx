@@ -26,8 +26,8 @@ export default function Navigation() {
             <Image
               src="/logo.png"
               alt="Guerra Junk Removal Solutions"
-              width={120}
-              height={40}
+              width={130}
+              height={45}
               className="h-10 w-auto"
             />
           </Link>
