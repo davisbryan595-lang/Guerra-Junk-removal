@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="mb-8 flex justify-center">
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance leading-tight">
+        <h1 className="text-4xl font-bold text-primary text-glow">
           Fast, Reliable Junk Removal for Solano County
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-100 text-balance">
