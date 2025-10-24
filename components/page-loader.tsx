@@ -5,12 +5,12 @@ import Image from "next/image"
 export default function PageLoader() {
   return (
     <div className="fixed inset-0 bg-white flex items-center justify-center z-50">
-      <div className="w-32 h-32 flex items-center justify-center animate-fade-in">
+      <div className="w-50 h-50 flex items-center justify-center animate-fade-in">
         <Image
           src="/logo.png" // make sure your logo is in the /public folder
           alt="Website Logo"
-          width={160}
-          height={160}
+          width={300}
+          height={300}
           className="object-contain animate-bounce-slow"
           priority
         />
