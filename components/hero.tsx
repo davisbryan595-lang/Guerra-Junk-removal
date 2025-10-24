@@ -16,10 +16,6 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
-        <div className="mb-8 flex justify-center">
-          <Image src="/logo.png" alt="Guerra Junk Removal Solutions" width={200} height={80} className="h-20 w-auto" />
-        </div>
 
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance leading-tight">
           Fast, Reliable Junk Removal for Solano County
