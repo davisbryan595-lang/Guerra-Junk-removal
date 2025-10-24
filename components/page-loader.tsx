@@ -12,8 +12,8 @@ export default function PageLoader() {
             <Image
               src="/logo.png" // make sure this is your logo path in /public
               alt="Website Logo"
-              width={160}
-              height={160}
+              width={180}
+              height={180}
               className="object-contain animate-bounce-slow"
               priority
             />
