@@ -20,10 +20,7 @@ export default function PageLoader() {
           </div>
         </div>
 
-        {/* Text Section */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-2">Guerra</h2>
-        <p className="text-gray-600 text-base">Loading your junk removal solution...</p>
-      </div>
+        
 
       {/* Optional custom animations */}
       <style jsx>{`
