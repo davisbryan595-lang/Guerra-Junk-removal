@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="mb-8 flex justify-center">
         </div>
 
-        <h1 className="text-4xl font-bold text-primary text-glow">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance leading-tight">
           Fast, Reliable Junk Removal for Solano County
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-100 text-balance">
@@ -38,6 +38,7 @@ export default function Hero() {
           <Button
             size="lg"
             variant="outline"
+            className="text-4xl font-bold text-primary text-glow"
             className="border-white text-white hover:bg-white/10 text-lg px-8 py-6 bg-transparent transition-all duration-300"
             onClick={() => (window.location.href = "tel:+17079896153")}
           >
