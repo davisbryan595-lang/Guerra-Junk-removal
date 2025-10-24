@@ -4,18 +4,6 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import FloatingCallButton from "@/components/FloatingCallButton"
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-        <FloatingCallButton /> {/* 👈 Add this line */}
-      </body>
-    </html>
-  )
-}
-
-
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
@@ -34,6 +22,17 @@ export default function RootLayout({
   return (
     <html lang="en" className="smooth-scroll">
       <body className={`font-sans antialiased`}>{children}</body>
+    </html>
+  )
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <FloatingCallButton /> {/* 👈 Add this line */}
+      </body>
     </html>
   )
 }
