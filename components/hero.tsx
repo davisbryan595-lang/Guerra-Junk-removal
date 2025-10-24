@@ -15,7 +15,10 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60"></div>
       </div>
 
-    
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
+        <div className="mb-8 flex justify-center">
+        </div>
 
         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance leading-tight">
           Fast, Reliable Junk Removal for Solano County
